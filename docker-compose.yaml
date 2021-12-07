@@ -1,0 +1,21 @@
+version: "3.3"
+
+services:
+  backend:
+    image: golang:1.17
+    working_dir: /go/src/app
+    command: bash -c "./ontlogin-sample"
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - "./backend:/go/src/app"
+
+  web:
+    image: nginx:stable-alpine
+    restart: always
+    ports:
+      - "8080:80"
+    volumes:
+      - "./frontend/dist:/usr/share/nginx/html"
+      - "./frontend/conf.d/default.conf:/etc/nginx/conf.d/default.conf"
