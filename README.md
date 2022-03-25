@@ -6,7 +6,10 @@
 
 ## how to run
 
-  running build.sh.  
+  first time, please run build.sh
+```bash
+build.sh
+```
   What we are doing in build.sh is as follows.  
   at the 1st, build backend script.  
   2nd, build frontend script.  
