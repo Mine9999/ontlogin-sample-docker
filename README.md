@@ -7,7 +7,7 @@
 ## how to run
 
   running build.sh.  
-  What we are doing in build.sh is as follows.
+  What we are doing in build.sh is as follows.  
   at the 1st, build backend script.  
   2nd, build frontend script.  
   use golang (1.17) container and node lts container(now version is 16).  
