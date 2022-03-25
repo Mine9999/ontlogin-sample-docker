@@ -4,6 +4,12 @@
   This repository has been built to make it easy for anyone to try out ONTLOGIN.  
   If you have a Docker environment, you can try out the simplest implementation of QR code authentication in a few steps.  
 
+## Required
+  * docker(recommend version 20.10.11~)
+  * docker-compose(recommend version 1.25.0~)
+  * internet connection
+  * linux console(I used ubuntu 20.04.3 LTS on wsl)
+
 ## how to run
 
   first time, please run build.sh
