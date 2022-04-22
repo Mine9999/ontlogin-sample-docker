@@ -36,7 +36,7 @@ docker-compose up -d
 ## about frontend/backend
 ### frontend
   custom vue demo script in https://github.com/ontology-tech/ontlogin-sdk-js (commit 7874a0ac21ac31ff9bb8e23cd90b12cbec0a16a4)  
-  patch ontlogin.js using (patch-package)[https://www.npmjs.com/package/patch-package]. (please show ./patches)  
+  patch ontlogin.js using [patch-package](https://www.npmjs.com/package/patch-package). (please show ./patches)  
 
 ### backend 
   using a modified of https://github.com/ontology-tech/ontlogin-sample-go  
